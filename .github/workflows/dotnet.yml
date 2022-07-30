@@ -2,9 +2,9 @@ name: .NET
 
 on:
   push:
-    branches: [ "main" ]
+    branches: none # [ "main" ]
   pull_request:
-    branches: [ "main" ]
+    branches: none # [ "main" ]
 
 jobs:
   build:
